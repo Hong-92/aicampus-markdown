@@ -110,11 +110,12 @@ markup과 markdown 모두 효과가 있습니다.
 
 - [테스트문서](./dummy/test.md)
 
+
 # 이미지(image)
 
-이미지는 링크 앞에 `!`만 추가하면 됩니다.
+이미지는 링크 앞에 `!`만 추가하면 됩니다. 
 
-단, 주소의 대상이 반드시 이미지여야 합니다.(아니면 엑박이 나옵니다)
+단, 주소의 대상이 반드시 이미지여야 합니다. (아니면 엑박이 나옵니다)
 
 내가 가진 이미지, 남이 가진 이미지 모두 표시가 가능합니다.
 
@@ -122,4 +123,13 @@ markup과 markdown 모두 효과가 있습니다.
 ![이미지간단설명](이미지주소)
 ```
 
-![카카오라이언](https://item.kakaocdn.net/do/a7fd7c0630f8aea8419a565fb2773bbc8f324a0b9c48f77dbce3a43bd11ce785)
+![카카오라이언](https://i.pinimg.com/originals/65/01/6b/65016b7fcf78444b8af4bef8fedc3e52.gif)
+
+깃허브는 이미지를 복사해서 붙여넣어도 임시로 업로드해서 주소를 만들어 줍니다.
+
+<img width="308" height="293" alt="image" src="https://github.com/user-attachments/assets/d6f1fc78-a109-415d-9667-094876883117" />
+
+내가 가진 이미지도 표시할 수 있습니다.  
+같은 저장소에 있다면 상대경로로 표시할 수 있습니다.
+
+![카카오라이언](./dummy/lion.gif)
